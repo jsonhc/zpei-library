@@ -58,7 +58,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/zpei-library/'),
+  history: createWebHistory(),
   routes
 })
 
