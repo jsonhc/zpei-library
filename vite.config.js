@@ -4,7 +4,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-  base: '/zpei-library/',
+  baseUrl: '/zpei-library/',
   plugins: [
     vue(),
     vueDevTools(),
