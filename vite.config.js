@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/zpei-library/',
+  publicPath: './',
   outputDir: 'dist',
   lintOnSave: process.env.NODE_ENV === 'production',
   productionSourceMap: false,
